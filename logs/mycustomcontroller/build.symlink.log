@@ -1,0 +1,5 @@
+Symlinking /home/ahmed/RosnoeticWS/devel/share/mycustomcontroller/cmake/mycustomcontrollerConfig-version.cmake
+Symlinking /home/ahmed/RosnoeticWS/devel/share/mycustomcontroller/cmake/mycustomcontrollerConfig.cmake
+Symlinking /home/ahmed/RosnoeticWS/devel/lib/libmycontroller.so
+Symlinking /home/ahmed/RosnoeticWS/devel/lib/pkgconfig/mycustomcontroller.pc
+Symlinking /home/ahmed/RosnoeticWS/devel/lib/mycustomcontroller/setpointpub

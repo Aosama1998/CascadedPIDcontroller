@@ -1,0 +1,1 @@
+/home/ahmed/RosnoeticWS/devel/.private/mycustomcontroller/lib/pkgconfig/mycustomcontroller.pc

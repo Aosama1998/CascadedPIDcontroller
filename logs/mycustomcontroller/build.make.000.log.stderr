@@ -1,0 +1,68 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/assert.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:36[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/ahmed/RosnoeticWS/src/mycustomcontroller/include/mycontroller.h:6[m[K,
+                 from [01m[K/home/ahmed/RosnoeticWS/src/mycustomcontroller/src/mycontroller.cpp:1[m[K:
+[01m[K/home/ahmed/RosnoeticWS/src/mycustomcontroller/src/mycontroller.cpp:[m[K In member function ‘[01m[Kvoid mycustomcontroller::mycontroller::outerLoop(const ros::TimerEvent&)[m[K’:
+[01m[K/home/ahmed/RosnoeticWS/src/mycustomcontroller/src/mycontroller.cpp:64:14:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lu[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 8 has type ‘[01m[Kstd::thread::id[m[K’ [[01;35m[K-Wformat=[m[K]
+   64 |     ROS_INFO([01;35m[K"Entering outerLoop on thread ID: %lu"[m[K, [32m[Kstd::this_thread::get_id()[m[K);
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                              [32m[K|[m[K
+      |                                                                              [32m[Kstd::thread::id[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/ahmed/RosnoeticWS/src/mycustomcontroller/src/mycontroller.cpp:64:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   64 |     [01;36m[KROS_INFO[m[K("Entering outerLoop on thread ID: %lu", std::this_thread::get_id());
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ahmed/RosnoeticWS/src/mycustomcontroller/src/mycontroller.cpp:64:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   64 |     ROS_INFO("Entering outerLoop on thread ID: [01;36m[K%lu[m[K", std::this_thread::get_id());
+      |                                                [01;36m[K~~^[m[K
+      |                                                  [01;36m[K|[m[K
+      |                                                  [01;36m[Klong unsigned int[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/assert.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:36[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/ahmed/RosnoeticWS/src/mycustomcontroller/include/mycontroller.h:6[m[K,
+                 from [01m[K/home/ahmed/RosnoeticWS/src/mycustomcontroller/src/mycontroller.cpp:1[m[K:
+[01m[K/home/ahmed/RosnoeticWS/src/mycustomcontroller/src/mycontroller.cpp:[m[K In member function ‘[01m[Kvoid mycustomcontroller::mycontroller::innerLoop(const ros::TimerEvent&)[m[K’:
+[01m[K/home/ahmed/RosnoeticWS/src/mycustomcontroller/src/mycontroller.cpp:86:14:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lu[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 8 has type ‘[01m[Kstd::thread::id[m[K’ [[01;35m[K-Wformat=[m[K]
+   86 |     ROS_INFO([01;35m[K"Entering InnerLoop on thread ID: %lu"[m[K, [32m[Kstd::this_thread::get_id()[m[K);
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                              [32m[K|[m[K
+      |                                                                              [32m[Kstd::thread::id[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/ahmed/RosnoeticWS/src/mycustomcontroller/src/mycontroller.cpp:86:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   86 |     [01;36m[KROS_INFO[m[K("Entering InnerLoop on thread ID: %lu", std::this_thread::get_id());
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ahmed/RosnoeticWS/src/mycustomcontroller/src/mycontroller.cpp:86:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   86 |     ROS_INFO("Entering InnerLoop on thread ID: [01;36m[K%lu[m[K", std::this_thread::get_id());
+      |                                                [01;36m[K~~^[m[K
+      |                                                  [01;36m[K|[m[K
+      |                                                  [01;36m[Klong unsigned int[m[K

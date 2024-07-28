@@ -1,0 +1,25 @@
+my_effort_controller:
+  type: mycustomcontroller/mycontroller
+  joints:
+    - J_1
+    - J_2
+    - J_4
+    - J_6
+    - J_7
+    - J_10
+    - J_12
+    - J_14
+    - J_15
+    - J_16
+
+
+  kp_vel: 1.0
+  ki_vel: 0.0
+  kd_vel: 0.0
+
+
+  kp_pos: 1.0
+  ki_pos: 0.0
+  kd_pos: 0.0
+
+  

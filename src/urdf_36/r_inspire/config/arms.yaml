@@ -1,0 +1,21 @@
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50
+
+arm_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - R_thumb_proximal_yaw_joint
+    - R_thumb_proximal_pitch_joint
+    - R_thumb_intermediate_joint
+    - R_thumb_distal_joint
+    - R_index_proximal_joint
+    - R_index_intermediate_joint
+    - R_middle_proximal_joint
+    - R_middle_intermediate_joint
+    - R_ring_proximal_joint
+    - R_ring_intermediate_joint
+    - R_pinky_proximal_joint
+    - R_pinky_intermediate_joint
+
+

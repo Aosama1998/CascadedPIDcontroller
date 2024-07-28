@@ -1,0 +1,7 @@
+mycustomcontroller
+/home/ahmed/RosnoeticWS/devel/.private/mycustomcontroller/cmake.lock /home/ahmed/RosnoeticWS/devel/./cmake.lock
+/home/ahmed/RosnoeticWS/devel/.private/mycustomcontroller/share/mycustomcontroller/cmake/mycustomcontrollerConfig-version.cmake /home/ahmed/RosnoeticWS/devel/share/mycustomcontroller/cmake/mycustomcontrollerConfig-version.cmake
+/home/ahmed/RosnoeticWS/devel/.private/mycustomcontroller/share/mycustomcontroller/cmake/mycustomcontrollerConfig.cmake /home/ahmed/RosnoeticWS/devel/share/mycustomcontroller/cmake/mycustomcontrollerConfig.cmake
+/home/ahmed/RosnoeticWS/devel/.private/mycustomcontroller/lib/libmycontroller.so /home/ahmed/RosnoeticWS/devel/lib/libmycontroller.so
+/home/ahmed/RosnoeticWS/devel/.private/mycustomcontroller/lib/pkgconfig/mycustomcontroller.pc /home/ahmed/RosnoeticWS/devel/lib/pkgconfig/mycustomcontroller.pc
+/home/ahmed/RosnoeticWS/devel/.private/mycustomcontroller/lib/mycustomcontroller/setpointpub /home/ahmed/RosnoeticWS/devel/lib/mycustomcontroller/setpointpub

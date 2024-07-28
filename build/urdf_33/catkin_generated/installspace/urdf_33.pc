@@ -1,0 +1,8 @@
+prefix=/home/ahmed/RosnoeticWS/install
+
+Name: urdf_33
+Description: Description of urdf_33
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

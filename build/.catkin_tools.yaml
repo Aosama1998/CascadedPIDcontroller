@@ -1,0 +1,6 @@
+devel_space: /home/ahmed/RosnoeticWS/devel
+install: false
+install_space: /home/ahmed/RosnoeticWS/install
+profile: default
+source_space: /home/ahmed/RosnoeticWS/src
+workspace: /home/ahmed/RosnoeticWS
